@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/flight-tracker/:match*",
+      "destination": "/index.html"
+    }
+  ]
+}
