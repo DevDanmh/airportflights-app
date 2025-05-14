@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/flight-tracker/:match*",
+      "destination": "https://www.dantheweb.dev/flight-tracker/:match*"
+    },
+    {
+      "source": "/:match*",
+      "destination": "https://dantheweb.dev/:match*"
+    }
+  ]
+}
